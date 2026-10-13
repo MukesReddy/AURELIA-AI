@@ -1,0 +1,16 @@
+{
+  "name": "aurelia-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aurelia AI - Autonomous Planning & Productivity Intelligence",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "test:server": "npm --prefix server test",
+    "start": "npm --prefix server start"
+  },
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.19.0"
+  }
+}
